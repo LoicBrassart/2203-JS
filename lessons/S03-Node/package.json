@@ -1,0 +1,17 @@
+{
+  "name": "bas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dojo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dojo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "type": "module"
+}
