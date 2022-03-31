@@ -1,5 +1,10 @@
 import SHeader from './style';
 
 export default function Header() {
-  return <SHeader>Hello, I'm the header !</SHeader>;
+  return (
+    <SHeader>
+      <h1>My awesome recipes</h1>
+      <input />
+    </SHeader>
+  );
 }
