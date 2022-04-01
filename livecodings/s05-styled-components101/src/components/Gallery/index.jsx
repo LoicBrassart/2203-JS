@@ -1,20 +1,21 @@
 import SGallery from './style';
 import Card from '../Card';
+import characters from '../../data';
 
 export default function Gallery() {
   return (
     <SGallery>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      {characters.map((character) => {
+        return (
+          <Card
+            key={character.name}
+            name={character.name}
+            species={character.species}
+            weapon={character.weapon}
+            attribute={character.attribute}
+          />
+        );
+      })}
     </SGallery>
   );
 }
