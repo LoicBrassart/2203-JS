@@ -13,7 +13,7 @@ export default styled.li`
 
   div {
     background: url(${(props) => props.bg}), url('/img/2.jpg');
-    background-size: contain;
+    background-size: contain, cover;
     background-repeat: no-repeat;
     background-position: center;
   }
